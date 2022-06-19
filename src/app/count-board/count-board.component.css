@@ -1,0 +1,49 @@
+.money-show {
+  cursor: pointer;
+}
+
+.noShow {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.count-wrap {
+  margin: 5% auto 2% auto;
+  width: 100%;
+  height: 250px;
+}
+
+.conut-select-wrap {
+  width: 70%;
+
+  /* height: fit-content; */
+}
+
+.count-select-area  {
+flex:1;
+}
+
+.count-card {
+  width: 30%;
+}
+
+.conut-select-wrap h4 {
+  font-size: 2rem;
+}
+
+.conut-select-wrap h2 {
+  font-size: 3rem;
+}
+
+select {
+  background-color: #fff;
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  cursor: pointer;
+}
+

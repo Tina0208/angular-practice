@@ -1,0 +1,21 @@
+.nav-item p
+{
+  color: #00994E;
+}
+
+.navbar {
+  position: relative;
+  height: 60px;
+  padding: 0 30px;
+}
+
+.nav-logo {
+  background-color: #25D482;
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  left: 30px;
+  top: -10px;
+  border-radius: 25px;
+}
+

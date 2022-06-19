@@ -1,0 +1,10 @@
+.detail {
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  background-color: #EAECEE;
+  box-shadow: 1px 3px 0 #25D482;
+}
+
+.detail-date ,.detail-detail, .detail-money {
+  /* border: 1px solid blue; */
+}
