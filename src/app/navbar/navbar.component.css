@@ -7,6 +7,7 @@
   position: relative;
   height: 60px;
   padding: 0 30px;
+  flex-direction: row-reverse;
 }
 
 .nav-logo {
@@ -17,5 +18,9 @@
   left: 30px;
   top: -10px;
   border-radius: 25px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
 }
 

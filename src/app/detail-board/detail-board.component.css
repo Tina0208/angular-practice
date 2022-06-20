@@ -1,7 +1,7 @@
 .detail-board {
   background-color: white;
   border-radius: 20px 0 20px 0;
-  border: 3px solid #FFC107;
+  border: 5px solid #FFC107;
 }
 
 .detail-area {
@@ -20,14 +20,14 @@
   background-color: #F78EBD;
 }
 
-.chart-content {
-  width: 40%;
-  /* border: 1px solid red; */
+
+.button-area {
+  position: relative;
 }
 
 .days-button {
   border-radius: 20px 0  0 20px;
-  width: fit-content;
+  width: 100px;
   height: 30px;
   border: none;
   /* line-height: 30px; */
@@ -35,4 +35,43 @@
 
 .days-button:last-child {
   border-radius: 0 20px 20px 0;
+}
+
+.control-button {
+  width: 100px;
+  height: 30px;
+  background-color: #25D482;
+  border-radius: 20px;
+  position: absolute;
+  line-height: 30px;
+  color: white;
+}
+
+.btnToRight {
+  right: 0;
+}
+
+
+@media screen and (max-width: 992px){
+  * {
+    font-size: .7rem;
+  }
+
+  .days-button {
+    border-radius: 20px 0  0 20px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    /* line-height: 30px; */
+  }
+
+  .control-button {
+    width: 70px;
+    height: 30px;
+    background-color: #25D482;
+    border-radius: 20px;
+    position: absolute;
+    line-height: 30px;
+    color: white;
+  }
 }

@@ -1,11 +1,11 @@
 <div class="container count-wrap d-flex ">
   <div class="conut-select-wrap px-3">
-    <div class="count-select-area d-flex justify-content-between text-center">
-      <select #select id="select" (change)="changeCount('臺幣',$event)">
+    <div class="count-select-area d-flex justify-content-between text-center w-100">
+      <select class="flex-grow-1 mr-2 " #select id="select" (change)="changeCount('臺幣',$event)">
        <option value={{count}} *ngFor="let count of taiwanCounts">{{count}}</option>
       </select>
-      <app-count-select [title]=title2 (click)="changeCount('外幣',$event)"></app-count-select>
-      <app-count-select [title]=title3 (click)="changeCount('數位',$event)"></app-count-select>
+      <app-count-select class="flex-grow-1 mr-2 w-25" [title]=title2 (click)="changeCount('外幣',$event)"></app-count-select>
+      <app-count-select class="flex-grow-1 w-25" [title]=title3 (click)="changeCount('數位',$event)"></app-count-select>
     </div>
     <h4 class="money-show d-flex justify-content-between text-light mt-5" (click)='show = !show;noShow=!noShow'>{{countCategory}}資產總額:<span
         [ngClass]="{ 'noShow': !show }"><i class="fa-solid fa-eye"></i></span>

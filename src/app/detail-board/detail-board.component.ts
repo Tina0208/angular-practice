@@ -11,7 +11,9 @@ export class DetailBoardComponent implements OnInit,DoCheck {
   itemList :{ date: string; detail: string; money: number; }[] = [];
   chartTitles = {title1: "轉入金額",title2: '轉出金額', title3: '利息' };
   chartColors = {color1: '#9197F2', color2: '#FEC133', color3: '#8EFB99'};
-  days:string = '';
+  days:string = '14';
+  transform:boolean = false;
+
 
   getAllData(){
     this.itemService.getAllData().subscribe(items =>
@@ -23,10 +25,13 @@ export class DetailBoardComponent implements OnInit,DoCheck {
     const days = ($event.currentTarget.childNodes)[1].innerHTML;
     this.days = days;
     this.itemService.getFilterData(days).subscribe(items =>
-      {this.itemList = items;
-      console.log(items);
-    console.log('days',days);
-    console.log('this.days',this.days)});
+      this.itemList = items);
+
+    if(days === '30'){
+      this.transform = true;
+    }else {
+      this.transform = false;
+    }
   }
 
   constructor(private itemService: ItemService) {
@@ -41,5 +46,4 @@ export class DetailBoardComponent implements OnInit,DoCheck {
     this.getAllData();
     console.log('ngOnInit123');
   }
-
 }

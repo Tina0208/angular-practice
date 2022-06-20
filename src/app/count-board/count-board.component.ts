@@ -18,17 +18,21 @@ export class CountBoardComponent implements OnInit {
   noShow: boolean = true;
   count:string = "$24,055";
   counts:Count = {
-    臺幣:
-    {'臺幣帳戶': "$24,055",
-    'count1': "$12,500",
-    'count2': "$11,555"},
+    臺幣: {
+      '臺幣帳戶': "$24,055",
+      'count1': "$12,500",
+      'count2': "$11,555"
+    },
     外幣: '$5,055',
-    數位: '$79,055'};
+    數位: '$79,055',
+  };
+
   changeCount(count:string,$event:any) {
+    this.countCategory = count;
+    // 無法判斷count????
+    // this.count = this.counts.count;
     switch(count){
       case '臺幣':
-        this.count = this.counts.臺幣;
-        this.countCategory = count;
         const countSelected = this.select.nativeElement.value;
         switch(countSelected){
           case '臺幣帳戶':
@@ -48,12 +52,10 @@ export class CountBoardComponent implements OnInit {
         break;
       case '外幣':
         this.count = this.counts.外幣;
-        this.countCategory = count;
-        this.select.nativeElement.value = '臺幣帳戶'
+        this.select.nativeElement.value = '臺幣帳戶';
         break;
       case '數位':
         this.count = this.counts.數位;
-        this.countCategory = count;
         this.select.nativeElement.value = '臺幣帳戶';
         break;
       default:
@@ -61,8 +63,6 @@ export class CountBoardComponent implements OnInit {
     }
 
     console.log('count',count);
-    // TODO
-    // console.log(this.counts.count);
   }
 
   constructor() { }
