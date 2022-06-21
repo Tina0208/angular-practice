@@ -7,19 +7,20 @@ import { Component, DoCheck, OnInit,Input, OnChanges } from '@angular/core';
   templateUrl: './detail-board.component.html',
   styleUrls: ['./detail-board.component.css']
 })
-export class DetailBoardComponent implements OnInit,DoCheck {
-  itemList :{ date: string; detail: string; money: number; }[] = [];
-  chartTitles = {title1: "轉入金額",title2: '轉出金額', title3: '利息' };
-  chartColors = {color1: '#9197F2', color2: '#FEC133', color3: '#8EFB99'};
-  days:string = '14';
-  transform:boolean = false;
+export class DetailBoardComponent implements OnInit {
+  itemList :{ date: string; detail: string; money: number; }[] = []; //帳戶明細
+  chartTitles = {title1: "轉入金額",title2: '轉出金額', title3: '利息' }; //帳戶明細標題
+  chartColors = {color1: '#9197F2', color2: '#FEC133', color3: '#8EFB99'}; //圖表div背景色
+  days:string = '14'; //天數
+  transform:boolean = false; //按鈕切換css控制
 
-
+  //取得全部資料
   getAllData(){
     this.itemService.getAllData().subscribe(items =>
       this.itemList = items)
   }
 
+  //取得14天或30天資料
   filterData($event: any){
     console.log($event.currentTarget);
     const days = ($event.currentTarget.childNodes)[1].innerHTML;
@@ -38,12 +39,12 @@ export class DetailBoardComponent implements OnInit,DoCheck {
     console.log(this.itemList);
   }
 
-  ngDoCheck(): void {
-    console.log('docheck123');
-}
+//   ngDoCheck(): void {
+//     console.log('docheck123');
+// }
 
   ngOnInit(): void {
     this.getAllData();
-    console.log('ngOnInit123');
+    // console.log('ngOnInit123');
   }
 }
