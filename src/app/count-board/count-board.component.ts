@@ -18,12 +18,11 @@ export class CountBoardComponent implements OnInit {
   noShow: boolean = true; //眼睛開關判斷
   count:string = "$24,055"; //帳戶總資產呈現
   prevAccountSelected:number=1;
-  counts:CountInstance = { //帳戶總資產資料
+  counts:Count = { //帳戶總資產資料
     臺幣: ['$24,055','$12,500','$11,555'], //[臺幣帳總資產,count1資產,count2資產]
     外幣: '$5,055',
     數位: '$79,055',
   };
-
 
   //帳戶切換method
   changeCount(count:any,$event:any) {
@@ -34,10 +33,10 @@ export class CountBoardComponent implements OnInit {
     if(count === '臺幣'){
       const countSelected = this.select.nativeElement.value;
       this.count = this.counts.臺幣[countSelected];
-      if(countSelected == 1) {
+      if(countSelected === 1) {
         this.cardShow.card1 = true;
         this.cardShow.card2 = false;
-      }else if(countSelected == 2){
+      }else if(countSelected === 2){
         this.cardShow.card1 = false;
         this.cardShow.card2 = true;
       }
