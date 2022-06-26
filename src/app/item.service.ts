@@ -9,8 +9,9 @@ import { Observable,of } from 'rxjs';
 export class ItemService {
 randaom = Math.random();
 details = [
+  { date: '2022,06,26',  detail: '手續費',  money: -15 },
+  { date: '2022,06,24',  detail: '手續費',  money: -15 },
   { date: '2022,06,19',  detail: '手續費',  money: -15 },
-  { date: '2022,06,19',  detail: '委帶入',  money: 1500 },
   { date: '2022,06,17',  detail: '轉帳存',  money: 1500 },
   { date: '2022,06,12',  detail: '現金提',  money: -3000 },
   { date: '2022,06,10',  detail: '現金提',  money: -5000 },

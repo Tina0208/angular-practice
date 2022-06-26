@@ -46,3 +46,9 @@ select {
   cursor: pointer;
 }
 
+.btn-clicked {
+  color: green;
+  font-weight: bold;
+}
+
+
