@@ -36,7 +36,6 @@ export class DetailBoardComponent implements OnInit {
   }
 
   constructor(private itemService: ItemService) {
-    console.log(this.itemList);
   }
 
 //   ngDoCheck(): void {

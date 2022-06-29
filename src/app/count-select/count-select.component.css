@@ -1,3 +1,13 @@
+a:visited {
+  text-decoration:none;
+  color: inherit;
+}
+
+a:link {
+  text-decoration:none;
+  color: black;
+}
+
 h3 {
   background-color: #fff;
   /* width: 180px; */
@@ -7,6 +17,16 @@ h3 {
   cursor: pointer;
 }
 
+
+#外幣帳戶:target {
+  color: green;
+  font-weight: bold;
+}
+
+#數位帳戶:target {
+  color: green;
+  font-weight: bold;
+}
 
 
 

@@ -46,9 +46,20 @@ select {
   cursor: pointer;
 }
 
-.btn-clicked {
+option {
+  color: black;
+}
+
+option:checked {
+  color: green;
+}
+
+#taiwan:target {
   color: green;
   font-weight: bold;
 }
 
+/* a {
+  pointer-events: none;
+} */
 
