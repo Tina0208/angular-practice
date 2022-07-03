@@ -1,0 +1,107 @@
+<div class="wrap container-fulid">
+<p class="date">營業日期:2022-06-28</p>
+<div class="table">
+  <!-- <mat-table> -->
+    <mat-table>
+      <!-- <ng-container matColumnDef="columns">
+        <mat-header-cell *matHeaderCellDef [attr.colspan]="3"> columns </mat-header-cell>
+      </ng-container> -->
+
+      <ng-container matColumnDef="potition">
+        <mat-header-cell *matHeaderCellDef  [ngStyle]="{'display': 'none'}"> 銀行代號 </mat-header-cell>
+        <mat-cell *matCellDef="let row"> {{row.username}} </mat-cell>
+      </ng-container>
+    <!-- User name Definition -->
+    <ng-container matColumnDef="bank-no">
+      <mat-header-cell *matHeaderCellDef [attr.rowspan]="2"> 銀行代號 </mat-header-cell>
+      <!-- <mat-cell *matCellDef="let row"> {{row.username}} </mat-cell> -->
+    </ng-container>
+
+    <!-- Age Definition -->
+    <ng-container matColumnDef="status">
+      <mat-header-cell *matHeaderCellDef [attr.rowspan]="2"> 系統狀態 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.age}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="bank1">
+      <mat-header-cell *matHeaderCellDef [attr.colspan]="2"> 發動行 </mat-header-cell>
+    </ng-container>
+
+    <!-- Title Definition -->
+    <ng-container matColumnDef="success1">
+      <mat-header-cell *matHeaderCellDef> 成功交易筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.title}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="error1">
+      <mat-header-cell *matHeaderCellDef> 失敗交易筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.title}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="bank2">
+      <mat-header-cell *matHeaderCellDef [attr.colspan]="2"> 扣款行 </mat-header-cell>
+    </ng-container>
+
+    <!-- Title Definition -->
+    <ng-container matColumnDef="success2">
+      <mat-header-cell *matHeaderCellDef> 成功交易筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.title}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="error2">
+      <mat-header-cell *matHeaderCellDef> 失敗交易筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.title}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="bank3">
+      <mat-header-cell *matHeaderCellDef [attr.colspan]="2"> 入帳行 </mat-header-cell>
+    </ng-container>
+
+    <!-- Title Definition -->
+    <ng-container matColumnDef="success3">
+      <mat-header-cell *matHeaderCellDef> 成功交易筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.title}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="error3">
+      <mat-header-cell *matHeaderCellDef> 失敗交易筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.title}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="timeout-counts">
+      <mat-header-cell *matHeaderCellDef [attr.rowspan]="2"> 逾時交易筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.username}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="undon-counts">
+      <mat-header-cell *matHeaderCellDef [attr.rowspan]="2"> 未完成交易筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.username}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="justify-counts">
+      <mat-header-cell *matHeaderCellDef [attr.rowspan]="2"> 沖正交易筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.username}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="processed-counts">
+      <mat-header-cell *matHeaderCellDef [attr.rowspan]="2"> 待處理筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.username}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="all-counts">
+      <mat-header-cell *matHeaderCellDef [attr.rowspan]="2"> 總筆數 </mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.username}} </mat-cell>
+    </ng-container>
+
+
+
+
+
+    <!-- Header and Row Declarations -->
+    <mat-header-row *matHeaderRowDef="['bank-no','status','bank1','bank2','bank3','timeout-counts','undon-counts','justify-counts','processed-counts','all-counts']"></mat-header-row>
+    <mat-header-row *matHeaderRowDef="['position','success1', 'error1', 'success2', 'error2','success3', 'error3']"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: ['position','status','success1', 'error1', 'success2', 'error2','success3', 'error3','timeout-counts','undon-counts','justify-counts','processed-counts','all-counts']"></mat-row>
+  </mat-table>
+</div>
+</div>
+
