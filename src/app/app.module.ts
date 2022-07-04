@@ -11,6 +11,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { DetailComponent } from './detail/detail.component';
 import { DetailBoardComponent } from './detail-board/detail-board.component';
 import { DetailChartComponent } from './detail-chart/detail-chart.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import { StatusComponent } from './status/status.component';
+import { IndexComponent } from './index/index.component';
+import {MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
@@ -21,12 +26,17 @@ import { DetailChartComponent } from './detail-chart/detail-chart.component';
     CountSelectComponent,
     DetailComponent,
     DetailBoardComponent,
-    DetailChartComponent
+    DetailChartComponent,
+    StatusComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatTableModule
   ],
   providers: [ItemService],
   bootstrap: [AppComponent]
