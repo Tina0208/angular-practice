@@ -1,8 +1,34 @@
 .date {
   border: 2px solid #97adc8;
+  padding: 1%;
 }
 
 .wrap {
   padding: 1%;
   background-color: #eef4fc;
+}
+
+.table-wrap {
+  border: 2px solid #97adc8;
+  margin-top: 1%;
+  padding: 1%;
+
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: none;
+}
+
+th.mat-header-cell {
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(71, 115, 172, 0.849);
+  color: white;
+  /* height: fit-content; */
+}
+
+.th-header {
+  border: 1px solid rgb(109, 109, 109);
 }

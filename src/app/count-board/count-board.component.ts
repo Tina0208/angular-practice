@@ -65,7 +65,7 @@ export class CountBoardComponent implements OnInit,OnChanges {
 
   //點選外幣選項，抓取API
   getApi(){
-    this.foreignCurrencyService.getData().subscribe(data =>
+    this.foreignCurrencyService.getData().subscribe((data: any) =>
       {
         // this.data = data;
         // this.status = this.data.responseMessage;
