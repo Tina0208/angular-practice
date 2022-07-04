@@ -18,9 +18,9 @@ export class CountBoardComponent implements OnInit,OnChanges {
   account!:number; //帳戶總資產呈現
   accountImg:string = "card.png"; //帳戶卡片呈現
   accounts:any;
-  status:string = "";
-  count:number = 0;
-  data:any;
+  // status:string = "";
+  // count:number = 0;
+  // data:any;
 
   @ViewChild('select') select!:ElementRef;
 
@@ -67,13 +67,13 @@ export class CountBoardComponent implements OnInit,OnChanges {
   getApi(){
     this.foreignCurrencyService.getData().subscribe(data =>
       {
-        this.data = data;
-        this.status = this.data.responseMessage;
-        this.count += 1;
-        console.log(this.count);
-        if(data === "error"){
-          this.status = "嘗試重新讀取資料";
-        }
+        // this.data = data;
+        // this.status = this.data.responseMessage;
+        // this.count += 1;
+        console.log(data);
+        // if(data === "error"){
+        //   this.status = "嘗試重新讀取資料";
+        // }
       }
   )}
 
