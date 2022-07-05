@@ -1,3 +1,12 @@
+.error {
+  background-color: red;
+}
+
+td {
+  display: table-cell;
+}
+
+
 .date {
   border: 2px solid #97adc8;
   padding: 1%;
@@ -11,14 +20,20 @@
 .table-wrap {
   border: 2px solid #97adc8;
   margin-top: 1%;
-  padding: 1%;
-
+  /* padding: 1%; */
+  position: relative;
 }
 
 table {
-  width: 100%;
-  margin: 0 auto;
+  width: 98%;
+  margin: 0 1% 1% 1%;
   box-shadow: none;
+}
+
+.table-wrap2 {
+  margin-top: 2%;
+  height: 400px;
+  overflow-y: scroll;
 }
 
 th.mat-header-cell {
@@ -26,9 +41,77 @@ th.mat-header-cell {
   border: 1px solid rgb(255, 255, 255);
   background-color: rgba(71, 115, 172, 0.849);
   color: white;
-  /* height: fit-content; */
 }
 
+th.mat-header-cell:first-of-type, th.mat-header-cell:last-of-type,td.mat-cell:first-of-type, td.mat-cell:last-of-type  {
+  padding: 0;
+}
+
+td.mat-cell  {
+  border-left: 1px solid white;
+  padding: 3px;
+  /* height: 50px; */
+  line-height: 0px;
+}
 .th-header {
   border: 1px solid rgb(109, 109, 109);
 }
+
+tr.mat-header-row {
+  height: 3rem;
+}
+
+tr.mat-row, tr.mat-footer-row {
+  height: 2rem;
+}
+
+.table-title {
+  position: absolute;
+  height: 26px;
+  /* border: 1px solid red; */
+  top: -13px;
+  background-color: #eef4fc;
+  margin: 0 1%;
+}
+
+.table-title:nth-child(2) {
+  position: absolute;
+  right: 0;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(53, 192, 235);
+  color: white;
+}
+
+.set-wrap {
+  border: 2px solid #97adc8;
+  margin-top: 1%;
+  position: relative;
+  padding-bottom: 1%;
+}
+
+.set-title {
+  position: absolute;
+  height: 26px;
+  /* border: 1px solid red; */
+  top: -13px;
+  background-color: #eef4fc;
+  margin: 0 1%;
+}
+
+.set-content {
+  padding: 1% 0 0 1%;
+}
+
+/* fieldset {
+  margin-top: 10px;
+  border: 2px solid red;
+}
+
+legend {
+  background-color: none;
+  width: fit-content;
+} */

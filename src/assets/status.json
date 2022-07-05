@@ -1,0 +1,653 @@
+[
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "訊息通知",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  },
+  {
+    "bank": "0000012-測試總行",
+    "status": "關機",
+    "bank1": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank2": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "bank3": {
+      "successCounts": 0,
+      "errorCounts": 0
+    },
+    "timeoutCounts": 0,
+    "undoneCounts": 0,
+    "justifyCounts": 0,
+    "processedCounts": 0,
+    "allCounts": 0
+  }
+]
