@@ -13,9 +13,11 @@ import { DetailBoardComponent } from './detail-board/detail-board.component';
 import { DetailChartComponent } from './detail-chart/detail-chart.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
-import { StatusComponent } from './status/status.component';
 import { IndexComponent } from './index/index.component';
 import {MatTableModule} from '@angular/material/table';
+import { ToMingGoPipe } from './hour/to-ming-go.pipe';
+import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -27,8 +29,9 @@ import {MatTableModule} from '@angular/material/table';
     DetailComponent,
     DetailBoardComponent,
     DetailChartComponent,
-    StatusComponent,
-    IndexComponent
+    IndexComponent,
+    ToMingGoPipe,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,9 @@ import {MatTableModule} from '@angular/material/table';
     HttpClientModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    MatTableModule
+    MatTableModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [ItemService],
   bootstrap: [AppComponent]

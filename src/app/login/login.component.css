@@ -1,0 +1,30 @@
+.wrap {
+  background-color: #00994E;
+  width: 100%;
+  height: calc(100vh - 110px);
+}
+
+form {
+  background-color: white;
+  border-radius: 20px 0 20px 0;
+  border: 5px solid #FFC107;
+  height: 80vh;
+  position: relative;
+  padding: 2%;
+}
+
+button {
+  position: absolute;
+  bottom: 5%;
+  border-radius: 20px;
+  width: 70%;
+  left: 15%;
+  background-color: #25D482;
+  color: white;
+  border: none;
+  box-shadow: 3px 3px 3px gray;
+}
+
+input {
+  border-radius: 20px;
+}

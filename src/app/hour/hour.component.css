@@ -1,0 +1,86 @@
+.wrap {
+  padding: 1%;
+  background-color: #eef4fc;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(42, 161, 197);
+  color: white;
+  box-shadow: 0px 1px 2px gray;
+}
+
+table {
+  box-shadow: 0 0 0 gray;
+}
+
+.mat-row:nth-child(even){
+  background-color: rgb(220, 230, 243);
+}
+
+.mat-row {
+  height: 2rem;
+}
+
+.pageinater {
+  background-color: rgba(71, 115, 172, 0.849);
+  color: white;
+  height: 3rem;
+}
+
+.mat-header-cell {
+  background-color: rgba(71, 115, 172, 0.849);
+  color: white;
+  text-align: center;
+}
+
+tr.mat-header-row {
+  height: 3rem;
+}
+
+
+th.mat-header-cell:last-of-type, th.mat-header-cell:first-of-type {
+  padding: 0;
+}
+
+td.mat-cell:not(td.mat-cell:first-child) {
+  border-left: 1px solid white;
+}
+
+.label-date {
+  width: 100px;
+}
+
+.button-datePick {
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  width: 1.2rem;
+  height: 1.2rem;
+  box-shadow: none;
+}
+
+.fa-solid {
+  color: gray;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-date {
+  height: 1.2rem;
+}
+
+span.currentPage {
+  width: 200px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding-right: 30px;
+}
+
+.fa-angle-left ,.fa-angle-right {
+  cursor: pointer;
+}

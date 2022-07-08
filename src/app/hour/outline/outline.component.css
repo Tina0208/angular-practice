@@ -1,0 +1,16 @@
+.query-wrap {
+  border: 2px solid #97adc8;
+  margin-top: 1%;
+  /* padding: 1%; */
+  position: relative;
+  padding: 13px 1% 1% 1%;
+}
+
+.query-title {
+  position: absolute;
+  height: 26px;
+  /* border: 1px solid red; */
+  top: -13px;
+  background-color: #eef4fc;
+  margin-bottom: 13px;
+}
