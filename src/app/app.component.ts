@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular_practice';
 
-  constructor() { }
+  constructor() { console.log(this.title)}
 
   ngOnInit(): void {
   }

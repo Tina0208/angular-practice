@@ -7,21 +7,20 @@ import { FormControl, FormGroup } from '@angular/forms';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
+
 export class LoginComponent implements OnInit {
   formLogin = new FormGroup ({
     username: new FormControl(),
     password: new FormControl()
   })
   isLogin:boolean = false;
+  @Output() passLoginEvent = new EventEmitter<boolean>();
 
-  constructor(private http:LoginService) { }
+  constructor(private loginService:LoginService) { }
 
-  ngOnInit(): void {
-    this.isLogin = this.http.isLogin();
-  }
+  ngOnInit(): void { }
 
   login(){
-    console.log(this.formLogin.value);
-    this.http.login(this.formLogin.value)
+    this.loginService.login(this.formLogin.value);
   }
 }

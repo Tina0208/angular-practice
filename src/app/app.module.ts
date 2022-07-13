@@ -18,6 +18,10 @@ import {MatTableModule} from '@angular/material/table';
 import { ToMingGoPipe } from './hour/to-ming-go.pipe';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { StorageService } from './storage.service';
+import { CardRenderComponent } from './card-render/card-render.component';
+import { InputComponent } from './card-render/input/input.component';
+import { KeyboardComponent } from './card-render/keyboard/keyboard.component';
 
 
 @NgModule({
@@ -32,6 +36,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     IndexComponent,
     ToMingGoPipe,
     LoginComponent,
+    CardRenderComponent,
+    InputComponent,
+    KeyboardComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,7 +50,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [ItemService],
+  providers: [ItemService,StorageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
