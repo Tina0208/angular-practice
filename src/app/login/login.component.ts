@@ -13,7 +13,6 @@ export class LoginComponent implements OnInit {
     username: new FormControl(),
     password: new FormControl()
   })
-  isLogin:boolean = false;
   @Output() passLoginEvent = new EventEmitter<boolean>();
 
   constructor(private loginService:LoginService) { }

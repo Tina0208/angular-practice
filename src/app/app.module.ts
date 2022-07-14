@@ -22,6 +22,8 @@ import { StorageService } from './storage.service';
 import { CardRenderComponent } from './card-render/card-render.component';
 import { InputComponent } from './card-render/input/input.component';
 import { KeyboardComponent } from './card-render/keyboard/keyboard.component';
+import { ShareModule } from './share/share/share.module';
+
 
 
 @NgModule({
@@ -48,7 +50,11 @@ import { KeyboardComponent } from './card-render/keyboard/keyboard.component';
     MatSliderModule,
     MatTableModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ShareModule
+  ],
+  exports: [
+    ShareModule
   ],
   providers: [ItemService,StorageService],
   bootstrap: [AppComponent]

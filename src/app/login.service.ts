@@ -13,18 +13,19 @@ export class LoginService {
   login(data:any){
     this.http.post('https://h2u-life-bot.herokuapp.com/test/login',data).subscribe({
       next: (x:any)=>{
-        // alert('登入成功');
-        // localStorage.setItem('token', 'Bearer ' + x['token']);
-
-        this.storageService.store('token', 'Bearer ' + x['token'])
+         this.storageService.store('token', 'Bearer ' + x['token'])
 
         console.log('log in')
-        this.router.navigate(['/index'])
+        this.router.navigate(['/index']);
       },
       error: (x)=>{
-        alert(x.error.msg)
+        alert(x.error.msg);
       }
     })
+  }
+
+  public isLogin(): boolean {
+    return localStorage.getItem('token') ? true : false;
   }
 }
 

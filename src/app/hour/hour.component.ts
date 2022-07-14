@@ -91,17 +91,20 @@ export class HourComponent implements OnInit {
 
       const nextPage = this.currentPage+1;
       this.filterDataSource = this.dataSource.slice(this.currentPage*this.perPage,nextPage*this.perPage);
-
+      console.log(this.currentPage*this.perPage);
+      console.log(nextPage*this.perPage);
       this.currentPage ++ ;
     }
 
     changePrevPage(){
+      console.log('console.log(this.currentPage)',this.currentPage);
       if(this.currentPage <= 1) return;
-
+      this.currentPage -- ;
       const prevPage = this.currentPage-1;
       this.filterDataSource = this.dataSource.slice(prevPage*this.perPage,this.currentPage*this.perPage);
+      console.log(prevPage*this.perPage);
+      console.log(this.currentPage*this.perPage);
 
-      this.currentPage -- ;
     }
 
 }

@@ -7,7 +7,6 @@ import { Subject,share } from 'rxjs';
 export class StorageService implements OnDestroy {
   private onSubject = new Subject<{ key: string, value: any }>();
   public changes = this.onSubject.asObservable().pipe(share());
-  isLogin:boolean = localStorage.getItem('token') ? true : false;
 
   constructor() {
     this.start();
@@ -33,15 +32,14 @@ export class StorageService implements OnDestroy {
   }
 
   public store(key: string, data: any): void {
-    this.isLogin = true;
     localStorage.setItem(key, JSON.stringify(data));
     this.onSubject.next({ key: key, value: data})
   }
 
   public clear(key: string) {
-    this.isLogin = false;
     localStorage.removeItem(key);
     this.onSubject.next({ key: key, value: null });
+    console.log(key);
   }
 
 
