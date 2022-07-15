@@ -1,5 +1,10 @@
+<!-- //起初為純點選的html架構(非select)
 <a href="#{{title}}">
 
-<h3 class="count-select d-flex justify-content-between px-2" id="{{title}}">{{title}}<span><i class="fa-solid fa-eye"></i></span></h3></a>
-<!-- <h3 class="d-flex justify-content-between px-2">外幣帳戶<span><i class="fa-solid fa-eye-slash"></i></span></h3> -->
+<h3 class="count-select d-flex justify-content-between px-2" id="{{title}}">{{title}}<span><i class="fa-solid fa-eye"></i></span></h3></a> -->
 
+
+  <select #select class="w-100" id="taiwan">
+  <option value={{i}} *ngFor="let account of optionArr, let i = index">{{account}}
+  </option>
+</select>

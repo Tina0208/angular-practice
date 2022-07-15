@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit,Input, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-count-select',
@@ -6,10 +6,11 @@ import { Component, OnInit,Input } from '@angular/core';
   styleUrls: ['./count-select.component.css']
 })
 export class CountSelectComponent implements OnInit {
-  @Input() title:string ='台幣帳戶';
+  @Input() title:string ='';
+  @Input() optionArr!:Array<any>;
+  @ViewChild('select') select?:ElementRef;
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

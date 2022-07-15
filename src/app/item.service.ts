@@ -53,13 +53,19 @@ accounts = {
       {account: '1234-5678-9101-1224',money: 24055, img: 'card15.png'},
     ]
    },
-    foreign:
+   foreign:
     {title: '外幣帳戶',
-     content: [{money: 6055}]
+    content: [
+      {account: '外幣帳戶',money: 69055},
+      {account: '6234-5678-9101-1224',money: 69055},
+     ]
     },
     digital:
     {title: '數位帳戶',
-    content: [{money: 79055}]
+    content: [
+      {account: '數位帳戶',money: 746887},
+      {account: '8834-5678-9101-1224',money: 746887},
+     ]
     }
   };
 

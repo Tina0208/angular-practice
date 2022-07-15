@@ -1,15 +1,20 @@
 <div class="container count-wrap d-flex ">
   <div class="conut-select-wrap px-3">
     <div class="count-select-area d-flex justify-content-between text-center w-100">
-      <a href="#taiwan" class="flex-grow-1 w-25 mr-2"><select #select class="w-100" id="taiwan"
+      <!-- <div href="#taiwan" class="flex-grow-1 w-25 mr-2"><select #select class="w-100" id="taiwan"
           (change)="changeCount('臺幣',$event)">
           <option value={{i}} *ngFor="let account of accounts.taiwan.content, let i = index">{{account.account}}
           </option>
-        </select></a>
-      <app-count-select class="app-select flex-grow-1 mr-2 w-25" [title]="accounts.foreign.title"
+        </select></div> -->
+        
+        <app-count-select class="flex-grow-1 w-25 mr-2" [optionArr]="optionArrTaiwan" (change)="changeCount('taiwan',$event,0)"></app-count-select>
+        <app-count-select class="flex-grow-1 w-25 mr-2" [optionArr]="optionArrForiegn" (change)="changeCount('foreign',$event,1)"></app-count-select>
+        <app-count-select class="flex-grow-1 w-25 mr-2" [optionArr]="optionArrDigital" (change)="changeCount('digital',$event,2)"
+        ></app-count-select>
+      <!-- <app-count-select class="app-select flex-grow-1 mr-2 w-25" [title]="accounts.foreign.title"
         (click)="changeCount('foreign',$event);getApi()"></app-count-select>
       <app-count-select class="flex-grow-1 w-25" [title]="accounts.digital.title"
-        (click)="changeCount('digital',$event)"></app-count-select>
+        (click)="changeCount('digital',$event)"></app-count-select> -->
     </div>
     <h4 class="money-show d-flex justify-content-between text-light mt-5" (click)='show = !show;noShow=!noShow'>
       {{accountCategory}}資產總額:<span [ngClass]="{ 'noShow': !show }"><i class="fa-solid fa-eye"></i></span>
